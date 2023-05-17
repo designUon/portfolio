@@ -1,0 +1,1369 @@
+#wrap {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+}
+
+#main video {
+    width: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+
+
+/* ///////////////////////// sec01 - 소개 ///////////////////////// */
+
+#sec01 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    background-image: url(../img/bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    /* background-color: #00C5DD; */
+}
+
+#intro {
+    width: 50%;
+    height: 350px;
+    margin: 0 auto;
+    /* background-color: antiquewhite; */
+}
+
+#intro_left {
+    width: 250px;
+    height: 150px;
+    /* background-color: aquamarine; */
+    float: left;
+    margin-top: 125px;
+    border-bottom: 1px solid #6BBEC8;
+}
+
+#aboutme {
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    color: #6BBEC8;
+    font-size: 15px;
+    border-bottom: 1px solid #6BBEC8;
+}
+
+#about_text_box {
+    width: 100%;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#name_kor {
+    font-size: 18px;
+    font-family: 'SUIT-Bold';
+    color: #6BBEC8;
+}
+
+#name_eng {
+    font-size: 13px;
+    font-family: 'SUIT-Bold';
+    color: #6BBEC8;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#about_text {
+    line-height: 17px;
+}
+
+#intro_right {
+    float: right;
+    height: 300px;
+    margin-top: 50px;
+    /* background-color: cornflowerblue; */
+}
+
+#intro_right img {
+    height: 100%;
+}
+
+#story {
+    width: 500px;
+    height: 140px;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: 17px;
+    line-height: 23px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+
+
+/* ///////////////////////// sec02 - 기술, 자격증 ///////////////////////// */
+
+#sec02 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    background-image: url(../img/bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #00E3FF; */
+}
+
+
+#skill_wrap {
+    width: 460px;
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#skill_wrap h1 {
+    font-size: 25px;
+    width: 100%;
+    height: 45px;
+    font-family: 'SUIT-Bold';
+    text-align: center;
+    border-bottom: 1px solid #333;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#skill {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#program {
+    width: 130px;
+    float: left;
+    /* background-color: aquamarine; */
+}
+
+#program li {
+    width: 100%;
+    height: 30px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 30px;
+    /* background-color: #6BBEC8; */
+}
+
+#skill_circle_box {
+    width: 260px;
+    height: 270px;
+    /* background-color: aqua; */
+    float: left;
+    /* margin-left: 120px; */
+}
+
+.skill_circle {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    align-items: center;
+}
+
+
+.skill_circle li {
+    width: calc(calc(250px / 10) - 10px);
+    height: 15px;
+    /* background-color: #837969; */
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+
+/* //////////////// circle_1 //////////////// */
+
+.circle_1 li {
+    border: 1px solid #00A3B7;
+}
+
+/* .circle_1{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+} */
+
+/* .circle_1>li:nth-child(1) {
+    animation: move1 1s 0.1s 1 forwards;
+}
+
+.circle_1>li:nth-child(2) {
+    animation: move1 1s 0.1s 1 forwards;
+}
+
+.circle_1>li:nth-child(3) {
+    animation: move1 1s 0.2s 1 forwards;
+}
+
+.circle_1>li:nth-child(4) {
+    animation: move1 1s 0.3s 1 forwards;
+}
+
+.circle_1>li:nth-child(5) {
+    animation: move1 1s 0.4s 1 forwards;
+}
+
+.circle_1>li:nth-child(6) {
+    animation: move1 1s 0.5s 1 forwards;
+}
+
+.circle_1>li:nth-child(7) {
+    animation: move1 1s 0.6s 1 forwards;
+}
+
+.circle_1>li:nth-child(8) {
+    animation: move1 1s 0.7s 1 forwards;
+}
+
+.circle_1>li:nth-child(9) {
+    animation: move1 1s 0.8s 1 forwards;
+}
+
+.circle_1>li:nth-child(10) {
+    animation: move1 1s 0.9s 1 forwards;
+} */
+.circle_1>li:nth-child(1).on {
+    animation: move1 1s 0.1s 1 forwards;
+}
+
+.circle_1>li:nth-child(2).on {
+    animation: move1 1s 0.1s 1 forwards;
+}
+
+.circle_1>li:nth-child(3).on {
+    animation: move1 1s 0.2s 1 forwards;
+}
+
+.circle_1>li:nth-child(4).on {
+    animation: move1 1s 0.3s 1 forwards;
+}
+
+.circle_1>li:nth-child(5).on {
+    animation: move1 1s 0.4s 1 forwards;
+}
+
+.circle_1>li:nth-child(6).on {
+    animation: move1 1s 0.5s 1 forwards;
+}
+
+.circle_1>li:nth-child(7).on {
+    animation: move1 1s 0.6s 1 forwards;
+}
+
+.circle_1>li:nth-child(8).on {
+    animation: move1 1s 0.7s 1 forwards;
+}
+
+.circle_1>li:nth-child(9).on {
+    animation: move1 1s 0.8s 1 forwards;
+}
+
+.circle_1>li:nth-child(10).on {
+    animation: move1 1s 0.9s 1 forwards;
+}
+
+@keyframes move1 {
+    0% {
+        background-color: #00A3B7;
+    }
+
+    100% {
+        background-color: #00A3B7;
+    }
+}
+
+
+/* //////////////// circle_2 //////////////// */
+
+.circle_2 li {
+    border: 1px solid #00C5DD;
+}
+
+.circle_2>li:nth-child(1).on {
+    animation: move2 1s 0.1s 1 forwards;
+}
+
+.circle_2>li:nth-child(2).on {
+    animation: move2 1s 0.1s 1 forwards;
+}
+
+.circle_2>li:nth-child(3).on {
+    animation: move2 1s 0.2s 1 forwards;
+}
+
+.circle_2>li:nth-child(4).on {
+    animation: move2 1s 0.3s 1 forwards;
+}
+
+.circle_2>li:nth-child(5).on {
+    animation: move2 1s 0.4s 1 forwards;
+}
+
+.circle_2>li:nth-child(6).on {
+    animation: move2 1s 0.5s 1 forwards;
+}
+
+.circle_2>li:nth-child(7).on {
+    animation: move2 1s 0.6s 1 forwards;
+}
+
+.circle_2>li:nth-child(8).on {
+    animation: move2 1s 0.7s 1 forwards;
+}
+
+.circle_2>li:nth-child(9).on {
+    animation: move2 1s 0.8s 1 forwards;
+}
+
+.circle_2>li:nth-child(10).on {
+    animation: move2 1s 0.9s 1 forwards;
+}
+
+@keyframes move2 {
+    0% {
+        background-color: #00C5DD;
+    }
+
+    100% {
+        background-color: #00C5DD;
+    }
+}
+
+
+
+/* //////////////// circle_3 //////////////// */
+
+.circle_3 li {
+    border: 1px solid #00E3FF;
+}
+
+.circle_3>li:nth-child(1) {
+    animation: move3 1s 0.1s 1 forwards;
+}
+
+.circle_3>li:nth-child(2) {
+    animation: move3 1s 0.1s 1 forwards;
+}
+
+.circle_3>li:nth-child(3) {
+    animation: move3 1s 0.2s 1 forwards;
+}
+
+.circle_3>li:nth-child(4) {
+    animation: move3 1s 0.3s 1 forwards;
+}
+
+.circle_3>li:nth-child(5) {
+    animation: move3 1s 0.4s 1 forwards;
+}
+
+.circle_3>li:nth-child(6) {
+    animation: move3 1s 0.5s 1 forwards;
+}
+
+.circle_3>li:nth-child(7) {
+    animation: move3 1s 0.6s 1 forwards;
+}
+
+.circle_3>li:nth-child(8) {
+    animation: move3 1s 0.7s 1 forwards;
+}
+
+@keyframes move3 {
+    0% {
+        background-color: #00E3FF;
+    }
+
+    100% {
+        background-color: #00E3FF;
+    }
+}
+
+
+/* //////////////// circle_4 //////////////// */
+
+.circle_4 li {
+    border: 1px solid #90F3FF;
+}
+
+.circle_4>li:nth-child(1) {
+    animation: move4 1s 0.1s 1 forwards;
+}
+
+.circle_4>li:nth-child(2) {
+    animation: move4 1s 0.1s 1 forwards;
+}
+
+.circle_4>li:nth-child(3) {
+    animation: move4 1s 0.2s 1 forwards;
+}
+
+.circle_4>li:nth-child(4) {
+    animation: move4 1s 0.3s 1 forwards;
+}
+
+.circle_4>li:nth-child(5) {
+    animation: move4 1s 0.4s 1 forwards;
+}
+
+.circle_4>li:nth-child(6) {
+    animation: move4 1s 0.5s 1 forwards;
+}
+
+.circle_4>li:nth-child(7) {
+    animation: move4 1s 0.6s 1 forwards;
+}
+
+.circle_4>li:nth-child(8) {
+    animation: move4 1s 0.7s 1 forwards;
+}
+
+@keyframes move4 {
+    0% {
+        background-color: #90F3FF;
+    }
+
+    100% {
+        background-color: #90F3FF;
+    }
+}
+
+
+
+/* //////////////// circle_5 //////////////// */
+
+.circle_5 li {
+    border: 1px solid #C8F9FF;
+}
+
+.circle_5>li:nth-child(1) {
+    animation: move5 1s 0.1s 1 forwards;
+}
+
+.circle_5>li:nth-child(2) {
+    animation: move5 1s 0.1s 1 forwards;
+}
+
+.circle_5>li:nth-child(3) {
+    animation: move5 1s 0.2s 1 forwards;
+}
+
+.circle_5>li:nth-child(4) {
+    animation: move5 1s 0.3s 1 forwards;
+}
+
+.circle_5>li:nth-child(5) {
+    animation: move5 1s 0.4s 1 forwards;
+}
+
+.circle_5>li:nth-child(6) {
+    animation: move5 1s 0.5s 1 forwards;
+}
+
+.circle_5>li:nth-child(7) {
+    animation: move5 1s 0.6s 1 forwards;
+}
+
+.circle_5>li:nth-child(8) {
+    animation: move5 1s 0.7s 1 forwards;
+}
+
+@keyframes move5 {
+    0% {
+        background-color: #C8F9FF;
+    }
+
+    100% {
+        background-color: #C8F9FF;
+    }
+}
+
+
+
+/* //////////////// circle_6 //////////////// */
+
+.circle_6 li {
+    border: 1px solid #CDFFE1;
+}
+
+.circle_6>li:nth-child(1) {
+    animation: move6 1s 0.1s 1 forwards;
+}
+
+.circle_6>li:nth-child(2) {
+    animation: move6 1s 0.1s 1 forwards;
+}
+
+.circle_6>li:nth-child(3) {
+    animation: move6 1s 0.2s 1 forwards;
+}
+
+.circle_6>li:nth-child(4) {
+    animation: move6 1s 0.3s 1 forwards;
+}
+
+.circle_6>li:nth-child(5) {
+    animation: move6 1s 0.4s 1 forwards;
+}
+
+.circle_6>li:nth-child(6) {
+    animation: move6 1s 0.5s 1 forwards;
+}
+
+.circle_6>li:nth-child(7) {
+    animation: move6 1s 0.6s 1 forwards;
+}
+
+.circle_6>li:nth-child(8) {
+    animation: move6 1s 0.7s 1 forwards;
+}
+
+.circle_6>li:nth-child(9) {
+    animation: move6 1s 0.8s 1 forwards;
+}
+
+@keyframes move6 {
+    0% {
+        background-color: #CDFFE1;
+    }
+
+    100% {
+        background-color: #CDFFE1;
+    }
+}
+
+
+
+/* //////////////// circle_7 //////////////// */
+
+.circle_7 li {
+    border: 1px solid #EAFFBC;
+}
+
+.circle_7>li:nth-child(1) {
+    animation: move7 1s 0.1s 1 forwards;
+}
+
+.circle_7>li:nth-child(2) {
+    animation: move7 1s 0.1s 1 forwards;
+}
+
+.circle_7>li:nth-child(3) {
+    animation: move7 1s 0.2s 1 forwards;
+}
+
+.circle_7>li:nth-child(4) {
+    animation: move7 1s 0.3s 1 forwards;
+}
+
+.circle_7>li:nth-child(5) {
+    animation: move7 1s 0.4s 1 forwards;
+}
+
+.circle_7>li:nth-child(6) {
+    animation: move7 1s 0.5s 1 forwards;
+}
+
+.circle_7>li:nth-child(7) {
+    animation: move7 1s 0.6s 1 forwards;
+}
+
+.circle_7>li:nth-child(8) {
+    animation: move7 1s 0.7s 1 forwards;
+}
+
+@keyframes move7 {
+    0% {
+        background-color: #EAFFBC;
+    }
+
+    100% {
+        background-color: #EAFFBC;
+    }
+}
+
+
+
+/* //////////////// circle_8 //////////////// */
+
+.circle_8 li {
+    border: 1px solid #FFFCBD;
+}
+
+.circle_8>li:nth-child(1) {
+    animation: move8 1s 0.1s 1 forwards;
+}
+
+.circle_8>li:nth-child(2) {
+    animation: move8 1s 0.1s 1 forwards;
+}
+
+.circle_8>li:nth-child(3) {
+    animation: move8 1s 0.2s 1 forwards;
+}
+
+.circle_8>li:nth-child(4) {
+    animation: move8 1s 0.3s 1 forwards;
+}
+
+.circle_8>li:nth-child(5) {
+    animation: move8 1s 0.4s 1 forwards;
+}
+
+.circle_8>li:nth-child(6) {
+    animation: move8 1s 0.5s 1 forwards;
+}
+
+.circle_8>li:nth-child(7) {
+    animation: move8 1s 0.6s 1 forwards;
+}
+
+.circle_8>li:nth-child(8) {
+    animation: move8 1s 0.7s 1 forwards;
+}
+
+@keyframes move8 {
+    0% {
+        background-color: #FFFCBD;
+    }
+
+    100% {
+        background-color: #FFFCBD;
+    }
+}
+
+
+/* //////////////// circle_9 //////////////// */
+
+.circle_9 li {
+    border: 1px solid #FFF5D1;
+}
+
+.circle_9>li:nth-child(1) {
+    animation: move9 1s 0.1s 1 forwards;
+}
+
+.circle_9>li:nth-child(2) {
+    animation: move9 1s 0.1s 1 forwards;
+}
+
+.circle_9>li:nth-child(3) {
+    animation: move9 1s 0.2s 1 forwards;
+}
+
+.circle_9>li:nth-child(4) {
+    animation: move9 1s 0.3s 1 forwards;
+}
+
+.circle_9>li:nth-child(5) {
+    animation: move9 1s 0.4s 1 forwards;
+}
+
+.circle_9>li:nth-child(6) {
+    animation: move9 1s 0.5s 1 forwards;
+}
+
+.circle_9>li:nth-child(7) {
+    animation: move9 1s 0.6s 1 forwards;
+}
+
+.circle_9>li:nth-child(8) {
+    animation: move9 1s 0.7s 1 forwards;
+}
+
+@keyframes move9 {
+    0% {
+        background-color: #FFF5D1;
+    }
+
+    100% {
+        background-color: #FFF5D1;
+    }
+}
+
+
+
+#percent {
+    width: 50px;
+    height: 260px;
+    margin-top: 5px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: coral; */
+}
+
+#percent li {
+    width: 50px;
+    height: 19px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 19px;
+    border-radius: 30px;
+}
+
+#percent>li:nth-child(1) {
+    background-color: #00A3B7;
+}
+
+#percent>li:nth-child(2) {
+    background-color: #00C5DD;
+}
+
+#percent>li:nth-child(3) {
+    background-color: #00E3FF;
+}
+
+#percent>li:nth-child(4) {
+    background-color: #90F3FF;
+}
+
+#percent>li:nth-child(5) {
+    background-color: #C8F9FF;
+}
+
+#percent>li:nth-child(6) {
+    background-color: #CDFFE1;
+}
+
+#percent>li:nth-child(7) {
+    background-color: #EAFFBC;
+}
+
+#percent>li:nth-child(8) {
+    background-color: #FFFCBD;
+}
+
+#percent>li:nth-child(9) {
+    background-color: #FFF5D1;
+}
+
+
+
+
+
+
+#license {
+    width: 100%;
+    height: 80px;
+    margin-top: 150px;
+    /* background-color: #6BBEC8; */
+}
+
+#license span {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    display: block;
+    /* padding-top: 30px; */
+}
+
+
+
+
+
+/* ///////////////////////// sec03 - 리뉴얼01 ///////////////////////// */
+
+#sec03 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    background-image: url(../img/bg_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.expertise {
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    /* overflow: hidden; */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #6BBEC8; */
+}
+
+.expertise_warp {
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 50px;
+}
+
+.expertise_warp li {
+    font-size: 23px;
+    /* float: left; */
+    /* margin: 10px 20px; */
+}
+
+
+
+#renewal_wrap {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#renewal_wrap h1 {
+    font-size: 25px;
+    text-align: left;
+    font-family: 'SUIT-Bold';
+}
+
+.renewal_box {
+    width: 100%;
+    height: 510px;
+    margin-bottom: 150px;
+    /* background-color: antiquewhite; */
+    position: relative;
+}
+
+.before {
+    width: 40%;
+    height: 200px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+
+.renewal_view {
+    width: calc(60% - 10px);
+    height: 300px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    overflow: hidden;
+    /* overflow-y: auto; */
+    /* scroll */
+}
+
+.renewal_view img {
+    position: absolute;
+    width: 115%;
+    top: 0;
+    left: 50%;
+    /* left: 50%; */
+    transform: translateX(-50%);
+}
+
+.renewal_text {
+    width: 55%;
+    height: 130px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.wireframe {
+    width: 40%;
+    height: 300px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+
+
+/* ///////////////////////// sec04 - 리뉴얼02 ///////////////////////// */
+
+#sec04 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    background-image: url(../img/bg_04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ///////////////////////// sec05 - 디자인 포트폴리오01 ///////////////////////// */
+
+#sec05 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    background-image: url(../img/bg_05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#design01 {
+    width: 910px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 400px;
+    padding-left: 10px;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+#design01 h1 {
+    font-size: 25px;
+    text-align: left;
+    font-family: 'SUIT-Bold';
+    margin-bottom: 10px;
+}
+
+.design_box_x {
+    width: calc(calc(calc(900px / 3) - 4px) * 2);
+    height: calc(calc(900px / 3) - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    float: left;
+}
+
+.design_box {
+    width: calc(calc(900px / 3) - 10px);
+    height: calc(calc(900px / 3) - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    float: left;
+}
+
+
+/* ///////////////////////// sec06 - 디자인 포트폴리오02 ///////////////////////// */
+
+#sec06 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    /* border: 1px solid black; */
+    background-image: url(../img/bg_06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#design02 {
+    width: 910px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 250px;
+    padding-left: 10px;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+#design02 h1 {
+    font-size: 25px;
+    text-align: left;
+    font-family: 'SUIT-Bold';
+    margin-bottom: 10px;
+}
+
+
+
+/* ///////////////////////// sec07 - 디자인 포트폴리오03 ///////////////////////// */
+
+#sec07 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    /* border: 1px solid black; */
+    background-image: url(../img/bg_07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#design03 {
+    width: 910px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-left: 10px;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+
+#design03 h1 {
+    font-size: 25px;
+    text-align: left;
+    font-family: 'SUIT-Bold';
+    margin-bottom: 10px;
+}
+
+.design_box_x2 {
+    width: calc(calc(900px / 2) - 7px);
+    height: calc(calc(900px / 3) - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    float: left;
+}
+
+
+/* ///////////////////////// sec08 - 오아시스 배경 ///////////////////////// */
+
+#sec08 {
+    width: 100%;
+    height: 100vh;
+    /* height: 970px; */
+    /* border: 1px solid black; */
+    background-image: url(../img/bg_08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ///////////////////////// 오아시스 + 컨택트 ///////////////////////// */
+
+#bg_oasis {
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    /* height: 970px; */
+    /* height: 1000px; */
+    /* background-color: chartreuse; */
+    position: relative;
+    /* margin-top: -500px; */
+}
+
+#oasis_wrap {
+    width: 100%;
+    height: 100vh;
+    /* height: 1000px; */
+    position: relative;
+    /* overflow: hidden; */
+    /* background-color: deeppink; */
+}
+
+.oasis {
+    width: 100%;
+    /* height: 100vh; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /* display: none; */
+}
+
+.oasis img {
+    width: 100%;
+}
+
+
+/* ////////// 파도 애니메이션 /////////// */
+
+.oasis_03 {
+    opacity: 0.2;
+    animation: oasis_move3 3s ease-in-out infinite alternate;
+}
+
+@keyframes oasis_move3 {
+
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.oasis_02 {
+    opacity: 0.5;
+    animation: oasis_move2 3s ease-in-out infinite alternate;
+}
+
+@keyframes oasis_move2 {
+
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.oasis_01 {
+    bottom: -100px;
+    animation: oasis_move1 3s ease-in-out infinite alternate;
+}
+
+@keyframes oasis_move1 {
+
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+.wave_02 {
+    opacity: 0.8;
+    width: 150%;
+    animation: wave_move2 2s ease-in-out infinite alternate;
+}
+
+@keyframes wave_move2 {
+
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.wave_01 {
+    animation: wave_move1 3s ease-in-out infinite alternate;
+}
+
+@keyframes wave_move1 {
+
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+.palmtree {
+    width: 300px;
+    position: absolute;
+    top: -1000px;
+}
+
+.palmtree img {
+    width: 100%;
+}
+
+.palmtree_left {
+    left: 0;
+}
+
+.palmtree_right {
+    right: 0;
+}
+
+
+/* ///////////////////////// 컨택트 카피 ///////////////////////// */
+
+#oasis_text {
+    width: 50%;
+    height: 300px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: blueviolet; */
+    position: absolute;
+}
+
+#oasis_text_left {
+    width: 280px;
+    height: 120px;
+    margin-top: 90px;
+    float: left;
+    /* background-color: coral; */
+}
+
+.comma {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+}
+
+.comma img {
+    width: 100%;
+}
+
+#oasis_text_left_up {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin-top: 18px;
+}
+
+#oasis_text_left_down {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    font-family: 'SUIT-Bold';
+}
+
+/* ///////////////////////// 컨택트 내용 ///////////////////////// */
+
+#oasis_text_right {
+    width: 240px;
+    height: 240px;
+    /* background-color: lightblue; */
+    float: right;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+}
+
+#contact {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    font-family: 'SUIT-Bold';
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+#oasis_text_right_box {
+    color: white;
+    font-size: 18px;
+}
+
+#oasis_text_right_box>img {
+    width: 80px;
+    height: 80px;
+    margin-left: 160px;
+    margin-top: 25px;
+}
+
+#oasis_text_right_box span {
+    font-size: 18px;
+}
+
+#oasis_text_right_box p {
+    font-size: 15px;
+}
+
+#email {
+    padding-top: 10px;
+}
+
+#copyright {
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50px;
+    position: absolute;
+    color: white;
+}
+
+.top-btn {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    /* display: block; */
+    font-size: 12px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+    pointer-events: none;
+    transition: all 0.2s;
+    opacity: 0;
+}
+
+.top-btn-show {
+    opacity: 1;
+    pointer-events: visible;
+    z-index: 999;
+    bottom: 50px;
+}
+
+/*애니메이션하는 요소 */
+.expertise.original {
+    animation: rollingleft1 33s linear 0s infinite normal forwards running;
+}
+
+.expertise.clone {
+    animation: rollingleft2 33s linear 0s infinite normal forwards running;
+}
+
+@keyframes rollingleft1 {
+
+    /* 원본 */
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    50.01% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes rollingleft2 {
+
+    /* 클론*/
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+    }
+}
+
+
+
+#rolling {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
